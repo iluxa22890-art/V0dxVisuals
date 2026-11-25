@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "vodxvisuals",
+  "version": "2.3.0",
+  "name": "Vodx Visuals",
+  "description": "Client-side visuals: HUD, kill/hit effects, custom sky, animated cosmetics, heavy sword/mace swings, mace ground cracks, custom item models, searchable GUI and aim assist.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.vodx.visuals.VodxVisualsClient"
+    ]
+  },
+  "mixins": [
+    "vodxvisuals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
